@@ -22,7 +22,7 @@ public class BaseClass {
 		if (BrowserName.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
-			
+		System.out.println("changes done");	
 		} else if (BrowserName.equalsIgnoreCase("Firefox")) {
 
 			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
